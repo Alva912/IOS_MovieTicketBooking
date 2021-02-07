@@ -17,6 +17,8 @@
 		D4CFBA2225CE696500423E61 /* BookingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA2125CE696500423E61 /* BookingListTableViewController.swift */; };
 		D4CFBA2425CE69A000423E61 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA2325CE69A000423E61 /* SignInViewController.swift */; };
 		D4CFBA2625CE69D300423E61 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA2525CE69D300423E61 /* SignUpViewController.swift */; };
+		FDA94DFA25CF9350009F8789 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA94DF925CF9350009F8789 /* ProfileViewController.swift */; };
+		FDA94DFD25CF93FC009F8789 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA94DFC25CF93FC009F8789 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		D4CFBA2125CE696500423E61 /* BookingListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingListTableViewController.swift; sourceTree = "<group>"; };
 		D4CFBA2325CE69A000423E61 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D4CFBA2525CE69D300423E61 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FDA94DF925CF9350009F8789 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FDA94DFC25CF93FC009F8789 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 		D4CFBA1E25CE687000423E61 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FDA94DFC25CF93FC009F8789 /* TabBarViewController.swift */,
 				D4CFBA1C25CE683900423E61 /* MoviesTableViewController.swift */,
+				FDA94DF925CF9350009F8789 /* ProfileViewController.swift */,
 				D4CFBA2325CE69A000423E61 /* SignInViewController.swift */,
 				D4CFBA2525CE69D300423E61 /* SignUpViewController.swift */,
 				D4CFBA2125CE696500423E61 /* BookingListTableViewController.swift */,
@@ -162,8 +168,10 @@
 				D4CFBA2625CE69D300423E61 /* SignUpViewController.swift in Sources */,
 				D4CFBA2225CE696500423E61 /* BookingListTableViewController.swift in Sources */,
 				D4CFBA2425CE69A000423E61 /* SignInViewController.swift in Sources */,
+				FDA94DFD25CF93FC009F8789 /* TabBarViewController.swift in Sources */,
 				D4CFBA0925CE664800423E61 /* SceneDelegate.swift in Sources */,
 				D4CFBA2025CE68F200423E61 /* SearchViewController.swift in Sources */,
+				FDA94DFA25CF9350009F8789 /* ProfileViewController.swift in Sources */,
 				D4CFBA1D25CE683900423E61 /* MoviesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
