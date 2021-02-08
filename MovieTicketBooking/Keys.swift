@@ -8,4 +8,5 @@
 
 import Foundation
 
+let ApiKey = "1d9dc9496ed70743df22e49cabadb2b6"
 let MoviesKey = "Movies"

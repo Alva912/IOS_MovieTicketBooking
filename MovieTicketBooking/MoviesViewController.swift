@@ -8,11 +8,15 @@
 
 import UIKit
 import AFNetworking
+import Alamofire
+import SwiftyJSON
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
-    var movies: [Movie] = []
+    var movies: [MovieResult] = []
+    var movieSelected: MovieResult?
+    
 
     override func viewWillAppear(_ animated: Bool) {
     }
@@ -26,32 +30,24 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 
     func fetchMovies() {
 
-        let apiKey = "1d9dc9496ed70743df22e49cabadb2b6"
-
-        guard let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=\(apiKey)") else {
+        guard let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=\(ApiKey)") else {
             return
         }
 
-        let request = URLRequest(url: url, cachePolicy: URLRequest.CachePolicy.reloadIgnoringLocalCacheData, timeoutInterval: 10)
-        let task = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
+        AF.request(url, method: .get).validate().responseJSON { response in
+            switch response.result {
+            case .success(let value):
+                let json = JSON(value)
+//                print("JSON: \(json)")
 
-            if let error = error {
+                let movieRoot: MovieRootClass = MovieRootClass(fromJson: json)
+                self.movies = movieRoot.results
+                self.tableView.reloadData()
+//                print("#######\n\(self.movies[1].title)")
+            case .failure(let error):
                 print(error)
-                return
             }
-
-            if let data = data {
-                self.movies = parseJsonData(data: data)
-                OperationQueue.main.addOperation({
-                    self.tableView.reloadData()
-                })
-                DispatchQueue.main.async{
-                    self.tableView.reloadData()
-                }
-            }
-        })
-
-        task.resume()
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -67,18 +63,40 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath) as! MovieCell
-        let movie: Movie = movies[indexPath.row]
+        let movie = movies[indexPath.row]
 
         let baseURL = "http://image.tmdb.org/t/p/w500"
-        let imageURL: URL = URL(string: baseURL + movie.posterPath)!
+        let imageURL = URL(string: baseURL + movie.posterPath)!
 
-        cell.posterImageView.setImageWith(imageURL)
+        cell.posterImageView.setImageWith(imageURL) // AFNetworking is better than Alamofire when comes to load images to UIImageView
         cell.titleLabel.text = movie.title
-        cell.dateLabel.text = "\(movie.date)"
-        cell.voteAvgLabel.text = "\(movie.voteAverage)"
+        cell.dateLabel.text = "\(movie.releaseDate!)"
+        cell.voteAvgLabel.text = "\(movie.voteAverage!)"
         cell.overviewLabel.text = movie.overview
 
         return cell
     }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        movieSelected = movies[indexPath.row]
+        performSegue(withIdentifier: "selectMovieSegue", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let identifier = segue.identifier {
+            switch identifier {
+            case "selectMovieSegue":
+                if let vc = segue.destination as? MovieInfoViewController {
+                    vc.movie = movieSelected
+                } else {
+                    print("Error: Type cast failed for segue", identifier)
+                }
+                break
+            default:
+                print("Error: Prepare segue for unhandled identifier", identifier)
+            }
+        } else {
+            print("Error: Segue with empty identifier is performed. Better check it.")
+        }
+    }
 }
