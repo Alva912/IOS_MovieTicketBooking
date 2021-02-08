@@ -14,4 +14,12 @@ struct Movie: Codable {
     let voteAverage: Double;
     let overview: String;
     let posterPath: String;
+    
+    enum CodingKeys: String, CodingKey {
+        case title = "title"
+        case date = "release_date"
+        case voteAverage = "vote_average"
+        case overview = "overview"
+        case posterPath = "poster_path"
+    }
 }
