@@ -3,25 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		366A96C925D15A44005A6E87 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A96C825D15A44005A6E87 /* MovieCell.swift */; };
+		366A96D225D17321005A6E87 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A96D125D17321005A6E87 /* Movie.swift */; };
+		366A96D625D174C0005A6E87 /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A96D525D174C0005A6E87 /* UserDefaultsKey.swift */; };
 		D4CFBA0725CE664800423E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA0625CE664800423E61 /* AppDelegate.swift */; };
 		D4CFBA0925CE664800423E61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA0825CE664800423E61 /* SceneDelegate.swift */; };
 		D4CFBA0E25CE664800423E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CFBA0C25CE664800423E61 /* Main.storyboard */; };
 		D4CFBA1025CE664A00423E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4CFBA0F25CE664A00423E61 /* Assets.xcassets */; };
 		D4CFBA1325CE664A00423E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CFBA1125CE664A00423E61 /* LaunchScreen.storyboard */; };
-		D4CFBA1D25CE683900423E61 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA1C25CE683900423E61 /* MoviesTableViewController.swift */; };
+		D4CFBA1D25CE683900423E61 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA1C25CE683900423E61 /* MoviesViewController.swift */; };
 		D4CFBA2025CE68F200423E61 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA1F25CE68F200423E61 /* SearchViewController.swift */; };
 		D4CFBA2225CE696500423E61 /* BookingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA2125CE696500423E61 /* BookingListTableViewController.swift */; };
 		D4CFBA2425CE69A000423E61 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA2325CE69A000423E61 /* SignInViewController.swift */; };
 		D4CFBA2625CE69D300423E61 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA2525CE69D300423E61 /* SignUpViewController.swift */; };
+		DF34B408EF3080BCFB14CCFD /* Pods_MovieTicketBooking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7EB8544566735D616BBFB2 /* Pods_MovieTicketBooking.framework */; };
 		FDA94DFA25CF9350009F8789 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA94DF925CF9350009F8789 /* ProfileViewController.swift */; };
 		FDA94DFD25CF93FC009F8789 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA94DFC25CF93FC009F8789 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		366A96C825D15A44005A6E87 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		366A96D125D17321005A6E87 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		366A96D525D174C0005A6E87 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
+		6F7EB8544566735D616BBFB2 /* Pods_MovieTicketBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieTicketBooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC95E784BAE8499D81E05D6 /* Pods-MovieTicketBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieTicketBooking.release.xcconfig"; path = "Target Support Files/Pods-MovieTicketBooking/Pods-MovieTicketBooking.release.xcconfig"; sourceTree = "<group>"; };
+		8C08E45CAE0A20DD1D430701 /* Pods-MovieTicketBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieTicketBooking.debug.xcconfig"; path = "Target Support Files/Pods-MovieTicketBooking/Pods-MovieTicketBooking.debug.xcconfig"; sourceTree = "<group>"; };
 		D4CFBA0325CE664800423E61 /* MovieTicketBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieTicketBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CFBA0625CE664800423E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4CFBA0825CE664800423E61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +39,7 @@
 		D4CFBA0F25CE664A00423E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4CFBA1225CE664A00423E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4CFBA1425CE664A00423E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4CFBA1C25CE683900423E61 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoviesTableViewController.swift; path = ../MoviesTableViewController.swift; sourceTree = "<group>"; };
+		D4CFBA1C25CE683900423E61 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoviesViewController.swift; path = ../MoviesViewController.swift; sourceTree = "<group>"; };
 		D4CFBA1F25CE68F200423E61 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		D4CFBA2125CE696500423E61 /* BookingListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingListTableViewController.swift; sourceTree = "<group>"; };
 		D4CFBA2325CE69A000423E61 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -43,17 +53,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF34B408EF3080BCFB14CCFD /* Pods_MovieTicketBooking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21D4B0B1EC01D04F807EC219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C08E45CAE0A20DD1D430701 /* Pods-MovieTicketBooking.debug.xcconfig */,
+				6FC95E784BAE8499D81E05D6 /* Pods-MovieTicketBooking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		366A96C025D14DFE005A6E87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				366A96C825D15A44005A6E87 /* MovieCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		366A96D025D17310005A6E87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				366A96D125D17321005A6E87 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D4CFB9FA25CE664800423E61 = {
 			isa = PBXGroup;
 			children = (
 				D4CFBA0525CE664800423E61 /* MovieTicketBooking */,
 				D4CFBA0425CE664800423E61 /* Products */,
+				21D4B0B1EC01D04F807EC219 /* Pods */,
+				FB4E0470B419C985B5C2C4DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,29 +106,40 @@
 		D4CFBA0525CE664800423E61 /* MovieTicketBooking */ = {
 			isa = PBXGroup;
 			children = (
+				366A96D025D17310005A6E87 /* Model */,
+				366A96C025D14DFE005A6E87 /* Views */,
 				D4CFBA0625CE664800423E61 /* AppDelegate.swift */,
 				D4CFBA0825CE664800423E61 /* SceneDelegate.swift */,
 				D4CFBA0C25CE664800423E61 /* Main.storyboard */,
-				D4CFBA1E25CE687000423E61 /* ViewController */,
+				D4CFBA1E25CE687000423E61 /* ViewControllers */,
 				D4CFBA0F25CE664A00423E61 /* Assets.xcassets */,
 				D4CFBA1125CE664A00423E61 /* LaunchScreen.storyboard */,
 				D4CFBA1425CE664A00423E61 /* Info.plist */,
+				366A96D525D174C0005A6E87 /* UserDefaultsKey.swift */,
 			);
 			path = MovieTicketBooking;
 			sourceTree = "<group>";
 		};
-		D4CFBA1E25CE687000423E61 /* ViewController */ = {
+		D4CFBA1E25CE687000423E61 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				FDA94DFC25CF93FC009F8789 /* TabBarViewController.swift */,
-				D4CFBA1C25CE683900423E61 /* MoviesTableViewController.swift */,
+				D4CFBA1C25CE683900423E61 /* MoviesViewController.swift */,
 				FDA94DF925CF9350009F8789 /* ProfileViewController.swift */,
 				D4CFBA2325CE69A000423E61 /* SignInViewController.swift */,
 				D4CFBA2525CE69D300423E61 /* SignUpViewController.swift */,
 				D4CFBA2125CE696500423E61 /* BookingListTableViewController.swift */,
 				D4CFBA1F25CE68F200423E61 /* SearchViewController.swift */,
 			);
-			path = ViewController;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FB4E0470B419C985B5C2C4DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F7EB8544566735D616BBFB2 /* Pods_MovieTicketBooking.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4CFBA1725CE664A00423E61 /* Build configuration list for PBXNativeTarget "MovieTicketBooking" */;
 			buildPhases = (
+				3E07F14F8D56AC1395ADB987 /* [CP] Check Pods Manifest.lock */,
 				D4CFB9FF25CE664800423E61 /* Sources */,
 				D4CFBA0025CE664800423E61 /* Frameworks */,
 				D4CFBA0125CE664800423E61 /* Resources */,
+				E38144C3B0321463DB511CDC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,11 +210,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E07F14F8D56AC1395ADB987 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovieTicketBooking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E38144C3B0321463DB511CDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieTicketBooking/Pods-MovieTicketBooking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieTicketBooking/Pods-MovieTicketBooking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieTicketBooking/Pods-MovieTicketBooking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4CFB9FF25CE664800423E61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				366A96D625D174C0005A6E87 /* UserDefaultsKey.swift in Sources */,
 				D4CFBA0725CE664800423E61 /* AppDelegate.swift in Sources */,
 				D4CFBA2625CE69D300423E61 /* SignUpViewController.swift in Sources */,
 				D4CFBA2225CE696500423E61 /* BookingListTableViewController.swift in Sources */,
@@ -172,7 +266,9 @@
 				D4CFBA0925CE664800423E61 /* SceneDelegate.swift in Sources */,
 				D4CFBA2025CE68F200423E61 /* SearchViewController.swift in Sources */,
 				FDA94DFA25CF9350009F8789 /* ProfileViewController.swift in Sources */,
-				D4CFBA1D25CE683900423E61 /* MoviesTableViewController.swift in Sources */,
+				366A96C925D15A44005A6E87 /* MovieCell.swift in Sources */,
+				366A96D225D17321005A6E87 /* Movie.swift in Sources */,
+				D4CFBA1D25CE683900423E61 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +410,7 @@
 		};
 		D4CFBA1825CE664A00423E61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C08E45CAE0A20DD1D430701 /* Pods-MovieTicketBooking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -331,6 +428,7 @@
 		};
 		D4CFBA1925CE664A00423E61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC95E784BAE8499D81E05D6 /* Pods-MovieTicketBooking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
