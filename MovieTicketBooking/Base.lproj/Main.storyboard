@@ -204,7 +204,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="dTM-0C-Cnb">
+                                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="dTM-0C-Cnb">
                                                 <rect key="frame" x="270" y="0.0" width="94" height="30"/>
                                                 <color key="tintColor" red="0.29411764709999999" green="0.2274509804" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
@@ -246,7 +246,7 @@
                                     <constraint firstAttribute="height" constant="60" id="F4y-gK-dCD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <color key="tintColor" red="0.67281829843523311" green="0.16184494246152542" blue="0.10429907933008302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemPinkColor"/>
                                 <state key="normal" title="Add to Booking List">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -423,6 +423,7 @@
                     <connections>
                         <outlet property="searchBar" destination="9bs-jY-yzU" id="7ei-Xp-S1D"/>
                         <outlet property="tableView" destination="MrP-ic-ZbR" id="bSt-Bl-OFa"/>
+                        <segue destination="tXx-5Z-xmt" kind="show" identifier="selectSearchedSegue" id="9MY-Gv-ao8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gHG-Ac-ugI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -460,11 +461,12 @@
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsM-xR-Aro">
                                     <rect key="frame" x="20" y="61" width="374" height="50"/>
-                                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                    <color key="backgroundColor" red="0.67281829843523311" green="0.16184494246152542" blue="0.10429907933008302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="0Ye-wf-J2z"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                    <color key="tintColor" systemColor="systemPinkColor"/>
                                     <state key="normal" title="Checkout">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
@@ -564,7 +566,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="47" id="eWi-KO-0Yv"/>
                                             </constraints>
-                                            <color key="tintColor" systemColor="systemPinkColor"/>
+                                            <color key="tintColor" red="0.67281829839999996" green="0.16184494250000001" blue="0.1042990793" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <state key="normal" image="trash" catalog="system">
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
@@ -673,7 +675,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ORU-k4-mh0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="524" y="1417"/>
+            <point key="canvasLocation" x="562" y="1422"/>
         </scene>
         <!--Profile-->
         <scene sceneID="G8k-P3-2NQ">
@@ -685,7 +687,7 @@
                         <subviews>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nl7-Yf-yOI" userLabel="outLogin_Btn">
                                 <rect key="frame" x="30" y="428.5" width="354" height="44"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <color key="backgroundColor" red="0.67281829839999996" green="0.16184494250000001" blue="0.1042990793" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Dyi-Ob-pBH"/>
                                 </constraints>
@@ -697,9 +699,9 @@
                                     <action selector="outLogin_Action:" destination="ZFI-AV-1AG" eventType="touchUpInside" id="kv3-gM-J4Q"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsn-c9-81b" userLabel="login_Btn">
-                                <rect key="frame" x="30" y="428.5" width="354" height="44"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsn-c9-81b" userLabel="login_Btn">
+                                <rect key="frame" x="30" y="527" width="354" height="44"/>
+                                <color key="backgroundColor" red="0.67281829843523311" green="0.16184494246152542" blue="0.10429907933008302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="yZV-Qr-6Br"/>
                                 </constraints>
@@ -731,7 +733,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yga-i8-PnX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1431" y="1415"/>
+            <point key="canvasLocation" x="1471" y="1420"/>
         </scene>
         <!--Profile-->
         <scene sceneID="7bm-0b-WHc">
@@ -748,7 +750,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ucn-kE-WFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-133" y="2372"/>
+            <point key="canvasLocation" x="138" y="2121"/>
         </scene>
         <!--Sign In-->
         <scene sceneID="Y1G-xD-9yc">
@@ -790,7 +792,7 @@
                                 <rect key="frame" x="152" y="658" width="110" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Sign up here">
-                                    <color key="titleColor" systemColor="systemPinkColor"/>
+                                    <color key="titleColor" red="0.67281829843523311" green="0.16184494246152542" blue="0.10429907933008302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="YWl-Sm-ZRE" kind="show" id="2Lv-dk-Xws"/>
@@ -798,8 +800,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wnq-gr-cTc" userLabel="SignIn_Btn">
                                 <rect key="frame" x="100" y="438" width="214" height="46"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <color key="backgroundColor" red="0.67281829839999996" green="0.16184494250000001" blue="0.1042990793" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="tintColor" systemColor="systemPinkColor"/>
                                 <state key="normal" title="Sign in">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -844,7 +847,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="feW-pC-Swy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1017" y="2372"/>
+            <point key="canvasLocation" x="1135" y="2121"/>
         </scene>
         <!--Sign Up-->
         <scene sceneID="tQO-SK-qWp">
@@ -900,7 +903,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sUe-x6-ygw">
                                 <rect key="frame" x="100" y="651" width="214" height="46"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <color key="backgroundColor" red="0.67281829839999996" green="0.16184494250000001" blue="0.1042990793" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="tintColor" systemColor="systemPinkColor"/>
                                 <state key="normal" title="Sign up">
@@ -956,7 +959,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9b0-2u-7XZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2506" y="2372"/>
+            <point key="canvasLocation" x="2132" y="2121"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cnd-Be-0oy">
@@ -1276,6 +1279,7 @@ before entering the cinema.</string>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sparkles" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="x8r-7p-tSw">
                                 <rect key="frame" x="132" y="190" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.87394907990000004" green="0.81794814120000003" blue="0.020025711910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LSe-vg-qTC"/>
@@ -1330,6 +1334,9 @@ before entering the cinema.</string>
             <point key="canvasLocation" x="-506" y="281"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="rW6-yN-vN4"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="film" catalog="system" width="128" height="93"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>

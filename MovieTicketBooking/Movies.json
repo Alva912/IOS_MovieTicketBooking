@@ -1,0 +1,409 @@
+{
+    "results" : [
+        {
+            "release_date" : "2020-12-16",
+            "adult" : false,
+            "video" : false,
+            "overview" : "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
+            "genre_ids" : [
+                14,
+                28,
+                12
+            ],
+            "title" : "Wonder Woman 1984",
+            "vote_count" : 3400,
+            "original_title" : "Wonder Woman 1984",
+            "id" : 464052,
+            "poster_path" : "\/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg",
+            "original_language" : "en",
+            "popularity" : 3454.018,
+            "backdrop_path" : "\/srYya1ZlI97Au4jUYAktDe3avyA.jpg",
+            "vote_average" : 7
+        },
+        {
+            "release_date" : "2021-01-27",
+            "adult" : false,
+            "video" : false,
+            "overview" : "Deputy Sheriff Joe \"Deke\" Deacon joins forces with Sgt. Jim Baxter to search for a serial killer who's terrorizing Los Angeles. As they track the culprit, Baxter is unaware that the investigation is dredging up echoes of Deke's past, uncovering disturbing secrets that could threaten more than his case.",
+            "genre_ids" : [
+                53,
+                80
+            ],
+            "title" : "The Little Things",
+            "vote_count" : 214,
+            "original_title" : "The Little Things",
+            "id" : 602269,
+            "poster_path" : "\/c7VlGCCgM9GZivKSzBgzuOVxQn7.jpg",
+            "original_language" : "en",
+            "popularity" : 2414.6790000000001,
+            "backdrop_path" : "\/vfuzELmhBjBTswXj2Vqxnu5ge4g.jpg",
+            "vote_average" : 6.4000000000000004
+        },
+        {
+            "release_date" : "2020-12-17",
+            "adult" : false,
+            "video" : false,
+            "overview" : "A hardened mechanic must stay awake and maintain an interstellar ark fleeing the dying planet Earth with a few thousand lucky souls on board... the last of humanity. Unfortunately, humans are not the only passengers. A shapeshifting alien creature has taken residence, its only goal is to kill as many people as possible. The crew must think quickly to stop this menace before it destroys mankind.",
+            "genre_ids" : [
+                878,
+                28
+            ],
+            "title" : "Breach",
+            "vote_count" : 209,
+            "original_title" : "Breach",
+            "id" : 651571,
+            "poster_path" : "\/13B6onhL6FzSN2KaNeQeMML05pS.jpg",
+            "original_language" : "en",
+            "popularity" : 1844.8610000000001,
+            "backdrop_path" : "\/nz8xWrTKZzA5A7FgxaM4kfAoO1W.jpg",
+            "vote_average" : 4.7999999999999998
+        },
+        {
+            "release_date" : "2020-12-25",
+            "adult" : false,
+            "video" : false,
+            "overview" : "Joe Gardner is a middle school teacher with a love for jazz music. After a successful gig at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth.",
+            "genre_ids" : [
+                10751,
+                16,
+                35,
+                18,
+                10402,
+                14
+            ],
+            "title" : "Soul",
+            "vote_count" : 4592,
+            "original_title" : "Soul",
+            "id" : 508442,
+            "poster_path" : "\/hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg",
+            "original_language" : "en",
+            "popularity" : 1613.9000000000001,
+            "backdrop_path" : "\/kf456ZqeC45XTvo6W9pW5clYKfQ.jpg",
+            "vote_average" : 8.3000000000000007
+        },
+        {
+            "release_date" : "2020-09-30",
+            "adult" : false,
+            "video" : false,
+            "overview" : "Covert security company Vanguard is the last hope of survival for an accountant after he is targeted by the world's deadliest mercenary organization.",
+            "genre_ids" : [
+                28,
+                12,
+                80
+            ],
+            "title" : "Vanguard",
+            "vote_count" : 174,
+            "original_title" : "急先锋",
+            "id" : 604822,
+            "poster_path" : "\/vYvppZMvXYheYTWVd8Rnn9nsmNp.jpg",
+            "original_language" : "zh",
+            "popularity" : 1460.848,
+            "backdrop_path" : "\/fX8e94MEWSuTJExndVYxKsmA4Hw.jpg",
+            "vote_average" : 6.5999999999999996
+        },
+        {
+            "release_date" : "2020-09-03",
+            "adult" : false,
+            "video" : false,
+            "overview" : "A bank robber tries to turn himself in because he's falling in love and wants to live an honest life...but when he realizes the Feds are more corrupt than him, he must fight back to clear his name.",
+            "genre_ids" : [
+                53,
+                28,
+                80,
+                18
+            ],
+            "title" : "Honest Thief",
+            "vote_count" : 563,
+            "original_title" : "Honest Thief",
+            "id" : 553604,
+            "poster_path" : "\/zeD4PabP6099gpE0STWJrJrCBCs.jpg",
+            "original_language" : "en",
+            "popularity" : 1242.962,
+            "backdrop_path" : "\/2M2JxEv3HSpjnZWjY9NOdGgfUd.jpg",
+            "vote_average" : 6.5999999999999996
+        },
+        {
+            "release_date" : "2020-06-26",
+            "adult" : false,
+            "video" : false,
+            "overview" : "Freddy Lupin, heir to a proud family line of werewolves, is in for a shock when on his 14th birthday his first 'warfing' goes awry, turning him into a ferocious poodle. The pack elders give Freddy until the next moonrise to prove he has the heart of a wolf, or risk being cast out forever. With the help of an unlikely ally in a streetwise stray named Batty, Freddy must prove he's 100% Wolf.",
+            "genre_ids" : [
+                10751,
+                16,
+                14
+            ],
+            "title" : "100% Wolf",
+            "vote_count" : 63,
+            "original_title" : "100% Wolf",
+            "id" : 520946,
+            "poster_path" : "\/2VrvxK4yxNCU6KVgo5TADJeBEQu.jpg",
+            "original_language" : "en",
+            "popularity" : 1052.0450000000001,
+            "backdrop_path" : "\/7TxeZVg2evMG42p0uSbMJpWNQ8A.jpg",
+            "vote_average" : 6.2999999999999998
+        },
+        {
+            "release_date" : "2020-11-25",
+            "adult" : false,
+            "video" : false,
+            "overview" : "Searching for a safer habitat, the prehistoric Crood family discovers an idyllic, walled-in paradise that meets all of its needs. Unfortunately, they must also learn to live with the Bettermans -- a family that's a couple of steps above the Croods on the evolutionary ladder. As tensions between the new neighbors start to rise, a new threat soon propels both clans on an epic adventure that forces them to embrace their differences, draw strength from one another, and survive together.",
+            "genre_ids" : [
+                10751,
+                12,
+                14,
+                16
+            ],
+            "title" : "The Croods: A New Age",
+            "vote_count" : 1412,
+            "original_title" : "The Croods: A New Age",
+            "id" : 529203,
+            "poster_path" : "\/tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+            "original_language" : "en",
+            "popularity" : 874.06700000000001,
+            "backdrop_path" : "\/cjaOSjsjV6cl3uXdJqimktT880L.jpg",
+            "vote_average" : 7.5999999999999996
+        },
+        {
+            "release_date" : "2020-12-04",
+            "adult" : false,
+            "video" : false,
+            "overview" : "Six friends hire a medium to hold a séance via Zoom during lockdown — but they get far more than they bargained for as things quickly go wrong. When an evil spirit starts invading their homes, they begin to realize they might not survive the night.",
+            "genre_ids" : [
+                27,
+                9648
+            ],
+            "title" : "Host",
+            "vote_count" : 87,
+            "original_title" : "Host",
+            "id" : 723072,
+            "poster_path" : "\/h7dZpJDORYs5c56dydbrLFkEXpE.jpg",
+            "original_language" : "en",
+            "popularity" : 861.80799999999999,
+            "backdrop_path" : "\/5TbtcmRySXPAEXBzwhiOYYDQmgv.jpg",
+            "vote_average" : 7.0999999999999996
+        },
+        {
+            "release_date" : "2020-09-08",
+            "adult" : false,
+            "video" : false,
+            "overview" : "At the height of the Cold War, a Soviet spacecraft crash lands after a mission gone awry, leaving the commander as its only survivor. After a renowned Russian psychologist is brought in to evaluate the commander’s mental state, it becomes clear that something dangerous may have come back to Earth with him…",
+            "genre_ids" : [
+                878,
+                18,
+                27
+            ],
+            "title" : "Sputnik",
+            "vote_count" : 164,
+            "original_title" : "Sputnik",
+            "id" : 594718,
+            "poster_path" : "\/eAUzmhP54bE1vPXaY7FbuZREJlR.jpg",
+            "original_language" : "ru",
+            "popularity" : 698.65800000000002,
+            "backdrop_path" : "\/mBbA77FyzhU0Tz9tmbKG8heGmh3.jpg",
+            "vote_average" : 6.5
+        },
+        {
+            "release_date" : "2020-07-23",
+            "adult" : false,
+            "video" : false,
+            "overview" : "Two couples on an oceanside getaway grow suspicious that the host of their seemingly perfect rental house may be spying on them. Before long, what should have been a celebratory weekend trip turns into something far more sinister.",
+            "genre_ids" : [
+                27,
+                53
+            ],
+            "title" : "The Rental",
+            "vote_count" : 278,
+            "original_title" : "The Rental",
+            "id" : 587496,
+            "poster_path" : "\/3ynPnBXQVT2Y0s19fDIPlWKUlxH.jpg",
+            "original_language" : "en",
+            "popularity" : 504.43700000000001,
+            "backdrop_path" : "\/2gBMBfmQvHeOQQ5PiKiuxVdGs77.jpg",
+            "vote_average" : 5.5999999999999996
+        },
+        {
+            "release_date" : "2020-08-26",
+            "adult" : false,
+            "video" : false,
+            "overview" : "Five young mutants, just discovering their abilities while held in a secret facility against their will, fight to escape their past sins and save themselves.",
+            "genre_ids" : [
+                28,
+                27,
+                878
+            ],
+            "title" : "The New Mutants",
+            "vote_count" : 1491,
+            "original_title" : "The New Mutants",
+            "id" : 340102,
+            "poster_path" : "\/xZNw9xxtwbEf25NYoz52KdbXHPM.jpg",
+            "original_language" : "en",
+            "popularity" : 464.50299999999999,
+            "backdrop_path" : "\/lrNbt21hRirjyTK0SeLA0L4RAVS.jpg",
+            "vote_average" : 6.4000000000000004
+        },
+        {
+            "release_date" : "2020-10-25",
+            "adult" : false,
+            "video" : false,
+            "overview" : "In late 1967, a young orphaned boy goes to live with his loving grandma in the rural Alabama town of Demopolis. As the boy and his grandmother encounter some deceptively glamorous but thoroughly diabolical witches, she wisely whisks him away to a seaside resort. Regrettably, they arrive at precisely the same time that the world's Grand High Witch has gathered.",
+            "genre_ids" : [
+                10751,
+                14,
+                12,
+                35,
+                27
+            ],
+            "title" : "Roald Dahl's The Witches",
+            "vote_count" : 1234,
+            "original_title" : "Roald Dahl's The Witches",
+            "id" : 531219,
+            "poster_path" : "\/b1C0FuXp4wiPmHLVKq4kwtDMgK6.jpg",
+            "original_language" : "en",
+            "popularity" : 437.61399999999998,
+            "backdrop_path" : "\/8rIoyM6zYXJNjzGseT3MRusMPWl.jpg",
+            "vote_average" : 6.7999999999999998
+        },
+        {
+            "release_date" : "2021-01-14",
+            "adult" : false,
+            "video" : false,
+            "overview" : "As WWII looms, a wealthy widow hires an amateur archaeologist to excavate the burial mounds on her estate. When they make a historic discovery, the echoes of Britain's past resonate in the face of its uncertain future‎.",
+            "genre_ids" : [
+                18,
+                36
+            ],
+            "title" : "The Dig",
+            "vote_count" : 240,
+            "original_title" : "The Dig",
+            "id" : 532865,
+            "poster_path" : "\/dFDNb9Gk1kyLRcconpj7Mc7C7IL.jpg",
+            "original_language" : "en",
+            "popularity" : 346.84199999999998,
+            "backdrop_path" : "\/gmP41e2bJcFjTzCQFmMoSvfNbxB.jpg",
+            "vote_average" : 7
+        },
+        {
+            "release_date" : "2020-08-27",
+            "adult" : false,
+            "video" : false,
+            "overview" : "A group of friends think they found the perfect easy score - an empty house with a safe full of cash. But when the elderly couple that lives there comes home early, the tables are suddenly turned. As a deadly game of cat and mouse ensues, the would-be thieves must fight to save themselves from a nightmare they could never have imagined.",
+            "genre_ids" : [
+                53,
+                27
+            ],
+            "title" : "The Owners",
+            "vote_count" : 127,
+            "original_title" : "The Owners",
+            "id" : 659986,
+            "poster_path" : "\/gzFatNrw0lhKD5NxaU6zC7S2KjP.jpg",
+            "original_language" : "en",
+            "popularity" : 345.61399999999998,
+            "backdrop_path" : "\/xUUtcxWC6H48UCrpRwwSPQz69XC.jpg",
+            "vote_average" : 5.7000000000000002
+        },
+        {
+            "release_date" : "2020-10-02",
+            "adult" : false,
+            "video" : false,
+            "overview" : "A couple on holiday on a remote South Pacific island awaken one morning with a hang over and no recollection of what transpired. When playing back a video of the previous night, they see they participated in a local ritual that somehow ends with him murdering her.",
+            "genre_ids" : [
+                27,
+                9648
+            ],
+            "title" : "Death of Me",
+            "vote_count" : 78,
+            "original_title" : "Death of Me",
+            "id" : 595149,
+            "poster_path" : "\/8F9xUvb1JMWUMkFV2Yq3aiueAbq.jpg",
+            "original_language" : "en",
+            "popularity" : 326.858,
+            "backdrop_path" : "\/qBxvZJoM2EJBh2eRWSYTWKZVhcd.jpg",
+            "vote_average" : 5.0999999999999996
+        },
+        {
+            "release_date" : "2021-01-12",
+            "adult" : false,
+            "video" : false,
+            "overview" : "A family of sadistic butchers lives deep in the backcountry. From the dead of winter to the dog days of summer, anyone who crosses their path is dead meat.",
+            "genre_ids" : [
+                27
+            ],
+            "title" : "Butchers",
+            "vote_count" : 45,
+            "original_title" : "Butchers",
+            "id" : 720026,
+            "poster_path" : "\/xLbuMxKORru3oTlItLBWpI5WJxR.jpg",
+            "original_language" : "en",
+            "popularity" : 290.72699999999998,
+            "backdrop_path" : "\/bJCb1wNJ2EMMFIsWeixRlF7XDHA.jpg",
+            "vote_average" : 5.5999999999999996
+        },
+        {
+            "release_date" : "2020-10-16",
+            "adult" : false,
+            "video" : false,
+            "overview" : "Tanjirō Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyōjurō Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
+            "genre_ids" : [
+                16,
+                28,
+                12,
+                14,
+                18
+            ],
+            "title" : "Demon Slayer: Infinity Train",
+            "vote_count" : 415,
+            "original_title" : "劇場版「鬼滅の刃」無限列車編",
+            "id" : 635302,
+            "poster_path" : "\/yF45egpHwaYLn4jTyZAgk0Cmug9.jpg",
+            "original_language" : "ja",
+            "popularity" : 262.99200000000002,
+            "backdrop_path" : "\/d1sVANghKKMZNvqjW0V6y1ejvV9.jpg",
+            "vote_average" : 8
+        },
+        {
+            "release_date" : "2020-10-22",
+            "adult" : false,
+            "video" : false,
+            "overview" : "In the near future, a popular uprising in Mexico City interrupts a wedding held at the home of a wealthy family. After the riots have been quashed, they discover the bride has gone missing and plea with the military to help locate her.",
+            "genre_ids" : [
+                18
+            ],
+            "title" : "New Order",
+            "vote_count" : 65,
+            "original_title" : "Nuevo Orden",
+            "id" : 575446,
+            "poster_path" : "\/v6NodCMzqilx0Xw541P65WFnDfE.jpg",
+            "original_language" : "es",
+            "popularity" : 220.76499999999999,
+            "backdrop_path" : "\/qDrtmc5gDOztiH5vvNT0CwgsLVZ.jpg",
+            "vote_average" : 6.5999999999999996
+        },
+        {
+            "release_date" : "2020-10-28",
+            "adult" : false,
+            "video" : false,
+            "overview" : "An eclectic foursome of aspiring teenage witches get more than they bargained for as they lean into their newfound powers.",
+            "genre_ids" : [
+                27,
+                18,
+                14
+            ],
+            "title" : "The Craft: Legacy",
+            "vote_count" : 267,
+            "original_title" : "The Craft: Legacy",
+            "id" : 590995,
+            "poster_path" : "\/lhMIra0pqWNuD6CIXoTmGwZ0EBS.jpg",
+            "original_language" : "en",
+            "popularity" : 207.435,
+            "backdrop_path" : "\/lIE7kfdLBRd0KENNtOaIqPPWNqh.jpg",
+            "vote_average" : 6
+        }
+    ],
+    "dates" : {
+        "minimum" : "2020-12-20",
+        "maximum" : "2021-02-06"
+    },
+    "page" : 1,
+    "total_results" : 835,
+    "total_pages" : 42
+}
