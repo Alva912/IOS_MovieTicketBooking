@@ -1,5 +1,5 @@
 # IOS_MovieTicketBooking
-A 🎞movie-tickets booking and shceduling mobile app for movie lovers😻.
+A movie-tickets🎞 booking and shceduling mobile app for movie lovers😻.
 
 ## Environment Setup
 1. First of all, `gem` and `ruby` normally comes with the macOS, just open the `terminal` and check the version of them.
@@ -34,3 +34,8 @@ pod install
 - [Alamofire](https://github.com/Alamofire/Alamofire) for making HTTP request
 - [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) for parsing JSON data
 - 😺SmallTip:[JSON Cafe](http://www.jsoncafe.com/) for generate Models from JSON data online
+
+## Team members
+- Jiahua Li (Coding & Editing)
+- Jiakang Li  (Coding & Recording)
+- Xinchen Wang (Recording)
