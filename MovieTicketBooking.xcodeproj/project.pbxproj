@@ -16,6 +16,7 @@
 		366A971D25D1E891005A6E87 /* MovieDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A971A25D1E890005A6E87 /* MovieDate.swift */; };
 		366A971E25D1E891005A6E87 /* MovieResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A971B25D1E890005A6E87 /* MovieResult.swift */; };
 		366A971F25D1E891005A6E87 /* MovieRootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A971C25D1E891005A6E87 /* MovieRootClass.swift */; };
+		366A972225D20819005A6E87 /* MovieCellSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A972125D20819005A6E87 /* MovieCellSelected.swift */; };
 		D4CFBA0725CE664800423E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA0625CE664800423E61 /* AppDelegate.swift */; };
 		D4CFBA0925CE664800423E61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA0825CE664800423E61 /* SceneDelegate.swift */; };
 		D4CFBA0E25CE664800423E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CFBA0C25CE664800423E61 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		366A971A25D1E890005A6E87 /* MovieDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDate.swift; sourceTree = "<group>"; };
 		366A971B25D1E890005A6E87 /* MovieResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieResult.swift; sourceTree = "<group>"; };
 		366A971C25D1E891005A6E87 /* MovieRootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieRootClass.swift; sourceTree = "<group>"; };
+		366A972125D20819005A6E87 /* MovieCellSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellSelected.swift; sourceTree = "<group>"; };
 		6F7EB8544566735D616BBFB2 /* Pods_MovieTicketBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieTicketBooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC95E784BAE8499D81E05D6 /* Pods-MovieTicketBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieTicketBooking.release.xcconfig"; path = "Target Support Files/Pods-MovieTicketBooking/Pods-MovieTicketBooking.release.xcconfig"; sourceTree = "<group>"; };
 		8C08E45CAE0A20DD1D430701 /* Pods-MovieTicketBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieTicketBooking.debug.xcconfig"; path = "Target Support Files/Pods-MovieTicketBooking/Pods-MovieTicketBooking.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				366A96C825D15A44005A6E87 /* MovieCell.swift */,
+				366A972125D20819005A6E87 /* MovieCellSelected.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				FDA94DFD25CF93FC009F8789 /* TabBarViewController.swift in Sources */,
 				366A96E825D1C003005A6E87 /* MovieInfoViewController.swift in Sources */,
 				D4CFBA0925CE664800423E61 /* SceneDelegate.swift in Sources */,
+				366A972225D20819005A6E87 /* MovieCellSelected.swift in Sources */,
 				366A971D25D1E891005A6E87 /* MovieDate.swift in Sources */,
 				366A971E25D1E891005A6E87 /* MovieResult.swift in Sources */,
 				D4CFBA2025CE68F200423E61 /* SearchViewController.swift in Sources */,

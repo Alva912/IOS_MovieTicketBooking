@@ -16,16 +16,16 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     @IBOutlet weak var tableView: UITableView!
     var movies: [MovieResult] = []
     var movieSelected: MovieResult?
-    
 
     override func viewWillAppear(_ animated: Bool) {
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fetchMovies()
+
         tableView.dataSource = self
         tableView.delegate = self
+        fetchMovies()
     }
 
     func fetchMovies() {
