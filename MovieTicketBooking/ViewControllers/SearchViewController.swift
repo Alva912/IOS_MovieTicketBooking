@@ -18,6 +18,7 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
     
     var query: String?
     var movies: [MovieResult]?
+    var movieSelected: MovieResult?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -77,10 +78,17 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return movies?.count ?? 0
     }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let movies = self.movies {
+            movieSelected = movies[indexPath.row]
+            performSegue(withIdentifier: "selectSearchedSegue", sender: nil)
+        }
+    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCellSearched", for: indexPath) as! MovieCellSelected
-        if let movies = movies {
+        if let movies = self.movies {
             let movie = movies[indexPath.row]
             let baseURL = "http://image.tmdb.org/t/p/w500"
             let imageURL = URL(string: baseURL + movie.posterPath)!
@@ -95,14 +103,25 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
         return cell
 
     }
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    // MARK: - Navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if let identifier = segue.identifier {
+            switch identifier {
+            case "selectSearchedSegue":
+                if let vc = segue.destination as? MovieInfoViewController {
+                    vc.movie = movieSelected
+                } else {
+                    print("Error: Type cast failed for segue", identifier)
+                }
+                break
+            default:
+                print("Error: Prepare segue for unhandled identifier", identifier)
+            }
+        } else {
+            print("Error: Segue with empty identifier is performed. Better check it.")
+        }
     }
-    */
 
 }

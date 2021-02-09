@@ -28,6 +28,7 @@ class MovieInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if let movie = self.movie {
+            self.navigationItem.title = movie.title
             let baseURL = "http://image.tmdb.org/t/p/w500"
             let backdropURL = URL(string: baseURL + movie.backdropPath)!
             let posterURL = URL(string: baseURL + movie.posterPath)!
