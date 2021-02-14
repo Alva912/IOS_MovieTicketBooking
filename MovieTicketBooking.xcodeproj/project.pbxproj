@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3637854025D92A2A0046E765 /* BookingListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637853F25D92A2A0046E765 /* BookingListItem.swift */; };
 		366A96C925D15A44005A6E87 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A96C825D15A44005A6E87 /* MovieCell.swift */; };
 		366A96D625D174C0005A6E87 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A96D525D174C0005A6E87 /* Keys.swift */; };
 		366A96D925D183E9005A6E87 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A96D825D183E9005A6E87 /* Helpers.swift */; };
@@ -17,7 +18,7 @@
 		366A971E25D1E891005A6E87 /* MovieResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A971B25D1E890005A6E87 /* MovieResult.swift */; };
 		366A971F25D1E891005A6E87 /* MovieRootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A971C25D1E891005A6E87 /* MovieRootClass.swift */; };
 		366A972225D20819005A6E87 /* MovieCellSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A972125D20819005A6E87 /* MovieCellSelected.swift */; };
-		366A972525D20AD4005A6E87 /* BookingListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A972425D20AD4005A6E87 /* BookingListCell.swift */; };
+		366A972525D20AD4005A6E87 /* BookingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A972425D20AD4005A6E87 /* BookingCell.swift */; };
 		D4CFBA0725CE664800423E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA0625CE664800423E61 /* AppDelegate.swift */; };
 		D4CFBA0925CE664800423E61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA0825CE664800423E61 /* SceneDelegate.swift */; };
 		D4CFBA0E25CE664800423E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CFBA0C25CE664800423E61 /* Main.storyboard */; };
@@ -25,7 +26,7 @@
 		D4CFBA1325CE664A00423E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CFBA1125CE664A00423E61 /* LaunchScreen.storyboard */; };
 		D4CFBA1D25CE683900423E61 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA1C25CE683900423E61 /* MoviesViewController.swift */; };
 		D4CFBA2025CE68F200423E61 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA1F25CE68F200423E61 /* SearchViewController.swift */; };
-		D4CFBA2225CE696500423E61 /* BookingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA2125CE696500423E61 /* BookingListTableViewController.swift */; };
+		D4CFBA2225CE696500423E61 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA2125CE696500423E61 /* BookingViewController.swift */; };
 		D4CFBA2425CE69A000423E61 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA2325CE69A000423E61 /* SignInViewController.swift */; };
 		D4CFBA2625CE69D300423E61 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFBA2525CE69D300423E61 /* SignUpViewController.swift */; };
 		DF34B408EF3080BCFB14CCFD /* Pods_MovieTicketBooking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7EB8544566735D616BBFB2 /* Pods_MovieTicketBooking.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3637853F25D92A2A0046E765 /* BookingListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingListItem.swift; sourceTree = "<group>"; };
 		366A96C825D15A44005A6E87 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		366A96D525D174C0005A6E87 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		366A96D825D183E9005A6E87 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
@@ -44,7 +46,7 @@
 		366A971B25D1E890005A6E87 /* MovieResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieResult.swift; sourceTree = "<group>"; };
 		366A971C25D1E891005A6E87 /* MovieRootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieRootClass.swift; sourceTree = "<group>"; };
 		366A972125D20819005A6E87 /* MovieCellSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellSelected.swift; sourceTree = "<group>"; };
-		366A972425D20AD4005A6E87 /* BookingListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingListCell.swift; sourceTree = "<group>"; };
+		366A972425D20AD4005A6E87 /* BookingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingCell.swift; sourceTree = "<group>"; };
 		6F7EB8544566735D616BBFB2 /* Pods_MovieTicketBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieTicketBooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC95E784BAE8499D81E05D6 /* Pods-MovieTicketBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieTicketBooking.release.xcconfig"; path = "Target Support Files/Pods-MovieTicketBooking/Pods-MovieTicketBooking.release.xcconfig"; sourceTree = "<group>"; };
 		8C08E45CAE0A20DD1D430701 /* Pods-MovieTicketBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieTicketBooking.debug.xcconfig"; path = "Target Support Files/Pods-MovieTicketBooking/Pods-MovieTicketBooking.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,7 +59,7 @@
 		D4CFBA1425CE664A00423E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4CFBA1C25CE683900423E61 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoviesViewController.swift; path = ../MoviesViewController.swift; sourceTree = "<group>"; };
 		D4CFBA1F25CE68F200423E61 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		D4CFBA2125CE696500423E61 /* BookingListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingListTableViewController.swift; sourceTree = "<group>"; };
+		D4CFBA2125CE696500423E61 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 		D4CFBA2325CE69A000423E61 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D4CFBA2525CE69D300423E61 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FDA94DF925CF9350009F8789 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -90,7 +92,7 @@
 			children = (
 				366A96C825D15A44005A6E87 /* MovieCell.swift */,
 				366A972125D20819005A6E87 /* MovieCellSelected.swift */,
-				366A972425D20AD4005A6E87 /* BookingListCell.swift */,
+				366A972425D20AD4005A6E87 /* BookingCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +104,7 @@
 				366A971B25D1E890005A6E87 /* MovieResult.swift */,
 				366A971C25D1E891005A6E87 /* MovieRootClass.swift */,
 				366A971725D1E837005A6E87 /* Movie.swift */,
+				3637853F25D92A2A0046E765 /* BookingListItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,7 +154,7 @@
 				FDA94DF925CF9350009F8789 /* ProfileViewController.swift */,
 				D4CFBA2325CE69A000423E61 /* SignInViewController.swift */,
 				D4CFBA2525CE69D300423E61 /* SignUpViewController.swift */,
-				D4CFBA2125CE696500423E61 /* BookingListTableViewController.swift */,
+				D4CFBA2125CE696500423E61 /* BookingViewController.swift */,
 				D4CFBA1F25CE68F200423E61 /* SearchViewController.swift */,
 				366A96E725D1C003005A6E87 /* MovieInfoViewController.swift */,
 			);
@@ -195,7 +198,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = JiahuaLi;
 				TargetAttributes = {
 					D4CFBA0225CE664800423E61 = {
@@ -282,19 +285,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3637854025D92A2A0046E765 /* BookingListItem.swift in Sources */,
 				366A971825D1E837005A6E87 /* Movie.swift in Sources */,
 				366A96D625D174C0005A6E87 /* Keys.swift in Sources */,
 				366A96D925D183E9005A6E87 /* Helpers.swift in Sources */,
 				D4CFBA0725CE664800423E61 /* AppDelegate.swift in Sources */,
 				D4CFBA2625CE69D300423E61 /* SignUpViewController.swift in Sources */,
 				366A971F25D1E891005A6E87 /* MovieRootClass.swift in Sources */,
-				D4CFBA2225CE696500423E61 /* BookingListTableViewController.swift in Sources */,
+				D4CFBA2225CE696500423E61 /* BookingViewController.swift in Sources */,
 				D4CFBA2425CE69A000423E61 /* SignInViewController.swift in Sources */,
 				FDA94DFD25CF93FC009F8789 /* TabBarViewController.swift in Sources */,
 				366A96E825D1C003005A6E87 /* MovieInfoViewController.swift in Sources */,
 				D4CFBA0925CE664800423E61 /* SceneDelegate.swift in Sources */,
 				366A972225D20819005A6E87 /* MovieCellSelected.swift in Sources */,
-				366A972525D20AD4005A6E87 /* BookingListCell.swift in Sources */,
+				366A972525D20AD4005A6E87 /* BookingCell.swift in Sources */,
 				366A971D25D1E891005A6E87 /* MovieDate.swift in Sources */,
 				366A971E25D1E891005A6E87 /* MovieResult.swift in Sources */,
 				D4CFBA2025CE68F200423E61 /* SearchViewController.swift in Sources */,
@@ -352,6 +356,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -412,6 +417,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

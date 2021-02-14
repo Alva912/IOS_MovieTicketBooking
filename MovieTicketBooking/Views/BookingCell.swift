@@ -8,11 +8,13 @@
 
 import UIKit
 
-protocol BookingListCellDelegate{
-    func stepperButton(sender: ReviewTableViewCell)
+protocol BookingCellDelegate{
+    func stepperClicked(_ cell: BookingCell)
 }
 
 class BookingCell: UITableViewCell {
+    
+    var delegate: BookingCellDelegate?
 
     @IBOutlet weak var posterImage: UIImageView!
     @IBOutlet weak var itemNameLabel: UILabel!
@@ -23,6 +25,7 @@ class BookingCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+
         // Initialization code
         itemNumberLabel.text = "Ticket 🎫 \(Int(numberStepper.value))"
     }
@@ -33,12 +36,14 @@ class BookingCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    @IBAction func onStepperChange(_ sender: Any) {
-        
-        itemNumberLabel.text = "Ticket 🎫 \(Int(numberStepper.value))"
+    @IBAction func cellStepper(_ sender: UIStepper) {
+        if let delegate = self.delegate {
+            delegate.stepperClicked(self)
+            itemNumberLabel.text = "Ticket 🎫 \(Int(numberStepper.value))"
+        }
     }
 
-    @IBAction func onDeleteClick(_ sender: Any) {
-//        self.removeFromSuperview()
+    @IBAction func deleteClicked(_ sender: Any) {
+        // self.removeFromSuperview()
     }
 }
