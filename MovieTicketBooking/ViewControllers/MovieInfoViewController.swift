@@ -31,9 +31,8 @@ class MovieInfoViewController: UIViewController {
             // Title
             self.navigationItem.title = movie.title
             // Images
-            let baseURL = "http://image.tmdb.org/t/p/w500"
-            let backdropURL = URL(string: baseURL + movie.backdropPath)!
-            let posterURL = URL(string: baseURL + movie.posterPath)!
+            let backdropURL = URL(string: ImgUrlKey + movie.backdropPath)!
+            let posterURL = URL(string: ImgUrlKey + movie.posterPath)!
             backdropImage.setImageWith(backdropURL)
             posterImage.setImageWith(posterURL)
             // Labels

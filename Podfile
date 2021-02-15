@@ -9,4 +9,5 @@ target 'MovieTicketBooking' do
 	pod 'AFNetworking'
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'DropDown'
 end

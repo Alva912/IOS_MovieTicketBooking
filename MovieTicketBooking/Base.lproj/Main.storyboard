@@ -4,12 +4,13 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Movies-->
+        <!--Movies View Controller-->
         <scene sceneID="WXe-gS-3Mw">
             <objects>
                 <viewController id="YbD-Iy-P1F" customClass="MoviesViewController" customModule="MovieTicketBooking" customModuleProvider="target" sceneMemberID="viewController">
@@ -116,10 +117,24 @@
                         <viewLayoutGuide key="safeArea" id="8at-AU-iSC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Movies" id="Kk5-29-CZG">
+                    <navigationItem key="navigationItem" id="Kk5-29-CZG">
+                        <nil key="title"/>
                         <barButtonItem key="backBarButtonItem" title="Back" id="kCy-a0-6F4"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IN0-H1-bEg">
+                            <rect key="frame" x="12" y="0.0" width="404" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="tintColor" name="DarkRed"/>
+                            <state key="normal" title=" Select" image="chevron.down.circle" catalog="system">
+                                <color key="titleColor" name="DarkRed"/>
+                            </state>
+                            <state key="disabled" image="chevron.down.circle" catalog="system"/>
+                            <state key="selected" image="chevron.down.circle" catalog="system"/>
+                            <state key="highlighted" image="chevron.up.circle" catalog="system"/>
+                        </button>
                     </navigationItem>
                     <connections>
+                        <outlet property="menuButton" destination="IN0-H1-bEg" id="db5-j4-U43"/>
                         <outlet property="tableView" destination="4BI-oF-kLJ" id="lhI-Ds-OIH"/>
                         <segue destination="tXx-5Z-xmt" kind="show" identifier="selectMovieSegue" id="rW6-yN-vN4"/>
                     </connections>
@@ -1328,9 +1343,10 @@ before entering the cinema.</string>
             <objects>
                 <navigationController id="Aa4-hk-Bg8" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Movies" image="film" catalog="system" id="R1P-JK-J7i"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VEV-SV-cAN">
+                    <navigationBar key="navigationBar" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="VEV-SV-cAN">
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="DarkRed"/>
                     </navigationBar>
                     <connections>
                         <segue destination="YbD-Iy-P1F" kind="relationship" relationship="rootViewController" id="pNt-ld-iaV"/>
@@ -1364,9 +1380,11 @@ before entering the cinema.</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9MY-Gv-ao8"/>
+        <segue reference="rW6-yN-vN4"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="chevron.down.circle" catalog="system" width="128" height="121"/>
+        <image name="chevron.up.circle" catalog="system" width="128" height="121"/>
         <image name="film" catalog="system" width="128" height="93"/>
         <image name="hexagon.fill" catalog="system" width="128" height="124"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
@@ -1375,6 +1393,9 @@ before entering the cinema.</string>
         <image name="star.leadinghalf.fill" catalog="system" width="128" height="116"/>
         <image name="tag" catalog="system" width="128" height="119"/>
         <image name="trash.fill" catalog="system" width="121" height="128"/>
+        <namedColor name="DarkRed">
+            <color red="0.67299997806549072" green="0.16200000047683716" blue="0.10400000214576721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

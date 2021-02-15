@@ -1,5 +1,5 @@
 //
-//  BookingListCell.swift
+//  BookingCell.swift
 //  MovieTicketBooking
 //
 //  Created by ljh on 9/2/21.

@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3637854025D92A2A0046E765 /* BookingListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637853F25D92A2A0046E765 /* BookingListItem.swift */; };
+		3637855325DA032E0046E765 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637855125DA032E0046E765 /* DropDownCell.swift */; };
+		3637855425DA032E0046E765 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3637855225DA032E0046E765 /* DropDownCell.xib */; };
 		366A96C925D15A44005A6E87 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A96C825D15A44005A6E87 /* MovieCell.swift */; };
 		366A96D625D174C0005A6E87 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A96D525D174C0005A6E87 /* Keys.swift */; };
-		366A96D925D183E9005A6E87 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A96D825D183E9005A6E87 /* Helpers.swift */; };
-		366A96DC25D18885005A6E87 /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 366A96DB25D18885005A6E87 /* Movies.json */; };
 		366A96E825D1C003005A6E87 /* MovieInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A96E725D1C003005A6E87 /* MovieInfoViewController.swift */; };
-		366A971825D1E837005A6E87 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A971725D1E837005A6E87 /* Movie.swift */; };
 		366A971D25D1E891005A6E87 /* MovieDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A971A25D1E890005A6E87 /* MovieDate.swift */; };
 		366A971E25D1E891005A6E87 /* MovieResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A971B25D1E890005A6E87 /* MovieResult.swift */; };
 		366A971F25D1E891005A6E87 /* MovieRootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A971C25D1E891005A6E87 /* MovieRootClass.swift */; };
@@ -36,12 +35,11 @@
 
 /* Begin PBXFileReference section */
 		3637853F25D92A2A0046E765 /* BookingListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingListItem.swift; sourceTree = "<group>"; };
+		3637855125DA032E0046E765 /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		3637855225DA032E0046E765 /* DropDownCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
 		366A96C825D15A44005A6E87 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		366A96D525D174C0005A6E87 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
-		366A96D825D183E9005A6E87 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		366A96DB25D18885005A6E87 /* Movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
 		366A96E725D1C003005A6E87 /* MovieInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoViewController.swift; sourceTree = "<group>"; };
-		366A971725D1E837005A6E87 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		366A971A25D1E890005A6E87 /* MovieDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDate.swift; sourceTree = "<group>"; };
 		366A971B25D1E890005A6E87 /* MovieResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieResult.swift; sourceTree = "<group>"; };
 		366A971C25D1E891005A6E87 /* MovieRootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieRootClass.swift; sourceTree = "<group>"; };
@@ -57,7 +55,7 @@
 		D4CFBA0F25CE664A00423E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4CFBA1225CE664A00423E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4CFBA1425CE664A00423E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4CFBA1C25CE683900423E61 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoviesViewController.swift; path = ../MoviesViewController.swift; sourceTree = "<group>"; };
+		D4CFBA1C25CE683900423E61 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		D4CFBA1F25CE68F200423E61 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		D4CFBA2125CE696500423E61 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 		D4CFBA2325CE69A000423E61 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +91,8 @@
 				366A96C825D15A44005A6E87 /* MovieCell.swift */,
 				366A972125D20819005A6E87 /* MovieCellSelected.swift */,
 				366A972425D20AD4005A6E87 /* BookingCell.swift */,
+				3637855125DA032E0046E765 /* DropDownCell.swift */,
+				3637855225DA032E0046E765 /* DropDownCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -103,7 +103,6 @@
 				366A971A25D1E890005A6E87 /* MovieDate.swift */,
 				366A971B25D1E890005A6E87 /* MovieResult.swift */,
 				366A971C25D1E891005A6E87 /* MovieRootClass.swift */,
-				366A971725D1E837005A6E87 /* Movie.swift */,
 				3637853F25D92A2A0046E765 /* BookingListItem.swift */,
 			);
 			path = Model;
@@ -132,16 +131,14 @@
 			children = (
 				366A96D025D17310005A6E87 /* Model */,
 				366A96C025D14DFE005A6E87 /* Views */,
+				D4CFBA1E25CE687000423E61 /* ViewControllers */,
 				D4CFBA0625CE664800423E61 /* AppDelegate.swift */,
 				D4CFBA0825CE664800423E61 /* SceneDelegate.swift */,
 				D4CFBA0C25CE664800423E61 /* Main.storyboard */,
-				D4CFBA1E25CE687000423E61 /* ViewControllers */,
 				D4CFBA0F25CE664A00423E61 /* Assets.xcassets */,
 				D4CFBA1125CE664A00423E61 /* LaunchScreen.storyboard */,
 				D4CFBA1425CE664A00423E61 /* Info.plist */,
-				366A96DB25D18885005A6E87 /* Movies.json */,
 				366A96D525D174C0005A6E87 /* Keys.swift */,
-				366A96D825D183E9005A6E87 /* Helpers.swift */,
 			);
 			path = MovieTicketBooking;
 			sourceTree = "<group>";
@@ -231,7 +228,7 @@
 			files = (
 				D4CFBA1325CE664A00423E61 /* LaunchScreen.storyboard in Resources */,
 				D4CFBA1025CE664A00423E61 /* Assets.xcassets in Resources */,
-				366A96DC25D18885005A6E87 /* Movies.json in Resources */,
+				3637855425DA032E0046E765 /* DropDownCell.xib in Resources */,
 				D4CFBA0E25CE664800423E61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,13 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3637854025D92A2A0046E765 /* BookingListItem.swift in Sources */,
-				366A971825D1E837005A6E87 /* Movie.swift in Sources */,
 				366A96D625D174C0005A6E87 /* Keys.swift in Sources */,
-				366A96D925D183E9005A6E87 /* Helpers.swift in Sources */,
 				D4CFBA0725CE664800423E61 /* AppDelegate.swift in Sources */,
 				D4CFBA2625CE69D300423E61 /* SignUpViewController.swift in Sources */,
 				366A971F25D1E891005A6E87 /* MovieRootClass.swift in Sources */,
 				D4CFBA2225CE696500423E61 /* BookingViewController.swift in Sources */,
+				3637855325DA032E0046E765 /* DropDownCell.swift in Sources */,
 				D4CFBA2425CE69A000423E61 /* SignInViewController.swift in Sources */,
 				FDA94DFD25CF93FC009F8789 /* TabBarViewController.swift in Sources */,
 				366A96E825D1C003005A6E87 /* MovieInfoViewController.swift in Sources */,

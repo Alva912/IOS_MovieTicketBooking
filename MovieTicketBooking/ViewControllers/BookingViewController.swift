@@ -1,5 +1,5 @@
 //
-//  BookingListTableViewController.swift
+//  BookingViewController.swift
 //  MovieTicketBooking
 //
 //  Created by yupei leng on 6/2/21.
@@ -65,8 +65,7 @@ class BookingViewController: UITableViewController, BookingCellDelegate {
         cell.tag = indexPath.row
         
         let item = bookingList[indexPath.row]
-        let baseURL = "http://image.tmdb.org/t/p/w500"
-        let posterURL = URL(string: baseURL + item.movieObj.posterPath)!
+        let posterURL = URL(string: ImgUrlKey + item.movieObj.posterPath)!
         
         cell.posterImage.setImageWith(posterURL)
         cell.itemNameLabel.text = item.movieObj.title
