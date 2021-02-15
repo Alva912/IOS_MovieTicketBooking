@@ -6,7 +6,8 @@ target 'MovieTicketBooking' do
   use_frameworks!
 
   # Pods for MovieTicketBooking
-	pod 'AFNetworking'
+  pod 'AFNetworking'
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'DropDown'
 end

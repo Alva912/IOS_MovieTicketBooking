@@ -10,7 +10,7 @@ import UIKit
 import AFNetworking
 
 class MovieInfoViewController: UIViewController {
-
+    
     @IBOutlet weak var voteAvgLabel: UILabel!
     @IBOutlet weak var posterImage: UIImageView!
     @IBOutlet weak var backdropImage: UIImageView!
@@ -23,40 +23,73 @@ class MovieInfoViewController: UIViewController {
     @IBOutlet weak var addBookingButton: UIButton!
     var movie: MovieResult?
     var number = 1
-    let uniPrice = 15
-
+    let unitPrice = 15
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         if let movie = self.movie {
+            // Title
             self.navigationItem.title = movie.title
-            let baseURL = "http://image.tmdb.org/t/p/w500"
-            let backdropURL = URL(string: baseURL + movie.backdropPath)!
-            let posterURL = URL(string: baseURL + movie.posterPath)!
+            // Images
+            let backdropURL = URL(string: ImgUrlKey + movie.backdropPath)!
+            let posterURL = URL(string: ImgUrlKey + movie.posterPath)!
             backdropImage.setImageWith(backdropURL)
             posterImage.setImageWith(posterURL)
-            voteAvgLabel.text = "\(movie.voteAverage!)"
+            // Labels
+            voteAvgLabel.text = String(Int(movie.voteAverage))
             titleLabel.text = movie.title
             overviewLabel.text = movie.overview
-            unitPriceLabel.text = "Unit Price : $\(uniPrice)"
+            unitPriceLabel.text = "Unit Price : $\(unitPrice)"
             numberLabel.text = "Number : \(number)"
-            totalPriceLabel.text = "Subtotals : $\(uniPrice*number)"
+            totalPriceLabel.text = "Subtotal : $\(unitPrice*number)"
         }
-        // Do any additional setup after loading the view.
     }
-
-    @IBAction func onStepperChange(_ sender: Any) {
+    
+    @IBAction func stepperClicked(_ sender: Any) {
         self.number = Int(numberStepper.value)
         numberLabel.text = "Number : \(number)"
-        totalPriceLabel.text! = "Subtotals : $\(uniPrice*number)"
+        totalPriceLabel.text! = "Subtotal : $\(unitPrice*number)"
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func addBookingClicked(_ sender: Any) {
+        if let movie = self.movie {
+            
+            // Handle cache data
+            if let data = UserDefaults.standard.data(forKey: BookingKey) {
+                var bookingList: [BookingListItem] = []
+                
+                if let currentList = try? PropertyListDecoder().decode([BookingListItem].self, from: data) {
+                    bookingList = currentList
+                    
+                    // Update array
+                    if bookingList.count < 20 {
+                        if let index = bookingList.firstIndex(where: {$0.movieObj.id == movie.id}) {
+                            let tempNum = bookingList[index].number + self.number
+                            if tempNum <= 10 {
+                                bookingList[index].number = tempNum
+                                print("\nUpdated: Current number of \(bookingList[index].movieObj.title) movie ticket is \(bookingList[index].number)")
+                            } else {
+                                print("\nError: Your ticket number of this movie reached the limit. Maximun 10 tickets of one movie.")
+                            }
+                        } else {
+                            let item = BookingListItem(movieObj: movie, number: self.number, unitPrice: self.unitPrice)
+                            bookingList.append(item)
+                            print("\nUpdated: Added a new movie to your list. Current number of \(item.movieObj.title) movie ticket is \(item.number)")
+                        }
+                        
+                        // Update cache
+                        UserDefaults.standard.set(try? PropertyListEncoder().encode(bookingList), forKey: BookingKey)
+                    } else {
+                        print("\nError: Your booking list is full. Maximun 20 items.")
+                    }
+                } else {
+                    print("\nError: Current booking list type casting failed")
+                }
+            } else {
+                print("\nError: No booking list data in user defaults")
+            }
+        } else {
+            print("\nError: No movie selected")
+        }
     }
-    */
-
 }

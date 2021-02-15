@@ -7,7 +7,7 @@ import Foundation
 import SwiftyJSON
 
 
-class MovieResult : NSObject, NSCoding{
+class MovieResult : NSObject, NSCoding, Codable{
 
     var adult : Bool!
     var backdropPath : String!
@@ -21,7 +21,7 @@ class MovieResult : NSObject, NSCoding{
     var releaseDate : String!
     var title : String!
     var video : Bool!
-    var voteAverage : Int!
+    var voteAverage : Float!
     var voteCount : Int!
 
 	/**
@@ -47,7 +47,7 @@ class MovieResult : NSObject, NSCoding{
         releaseDate = json["release_date"].stringValue
         title = json["title"].stringValue
         video = json["video"].boolValue
-        voteAverage = json["vote_average"].intValue
+        voteAverage = json["vote_average"].floatValue
         voteCount = json["vote_count"].intValue
 	}
 
@@ -120,7 +120,7 @@ class MovieResult : NSObject, NSCoding{
 		releaseDate = aDecoder.decodeObject(forKey: "release_date") as? String
 		title = aDecoder.decodeObject(forKey: "title") as? String
 		video = aDecoder.decodeObject(forKey: "video") as? Bool
-		voteAverage = aDecoder.decodeObject(forKey: "vote_average") as? Int
+		voteAverage = aDecoder.decodeObject(forKey: "vote_average") as? Float
 		voteCount = aDecoder.decodeObject(forKey: "vote_count") as? Int
 	}
 
