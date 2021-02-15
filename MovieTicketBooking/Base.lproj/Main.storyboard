@@ -319,7 +319,7 @@
         <!--Search-->
         <scene sceneID="nFq-CG-LeS">
             <objects>
-                <viewController storyboardIdentifier="SearchViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Yqv-UX-KNr" customClass="SearchViewController" customModule="MovieTicketBooking" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="Yqv-UX-KNr" customClass="SearchViewController" customModule="MovieTicketBooking" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cem-LQ-9sj">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -475,7 +475,7 @@
         <!--Booking List-->
         <scene sceneID="Ez6-cw-hvc">
             <objects>
-                <tableViewController storyboardIdentifier="BookingListTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AcC-NS-Sll" customClass="BookingViewController" customModule="MovieTicketBooking" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="AcC-NS-Sll" customClass="BookingViewController" customModule="MovieTicketBooking" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ful-mW-Lke">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1380,7 +1380,7 @@ before entering the cinema.</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rW6-yN-vN4"/>
+        <segue reference="9MY-Gv-ao8"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chevron.down.circle" catalog="system" width="128" height="121"/>
